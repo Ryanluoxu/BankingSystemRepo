@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>login</title>
+		<style type="text/css">
+		input {margin: 1%; padding: 2%; width: 200px;}
+		tr {height: 40px;}
+		.yellow {background-color: yellow;}
+		.green {background-color: menu;}
+		</style>
+	</head>
+	<body>
+		<form method="post" action="LoginController">
+			<table border="2" align="center" class="green">
+				<tr>
+					<td colspan="2" align="center" class="yellow"><h2>Welcome to Optimum Bank</h2></td>
+				</tr>
+				<tr>  
+					<td width="120">&nbsp;&nbsp;User ID</td>
+					<td width="260"><input type="text" name="userID"></td> <!-- name must same with java -->
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Password</td>
+					<td><input type="password" name="pwd"></td> <!-- name must same with java -->
+				</tr>		
+				<tr>
+					<td colspan="2" align="center">
+					<input type="submit" value="Login">
+					<input type="reset" value="Reset">
+					</td>
+				</tr>	
+				<tr>
+					<td colspan="2">
+					&nbsp;&nbsp;Not Registered Yet ? &nbsp;
+					<a href="register.html">Register Here</a>
+					</td>
+				</tr>	
+			</table>
+		</form>
+	</body>
+</html>

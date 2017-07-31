@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Create Account</title>
+		<style type="text/css">
+		input {margin: 1%; padding: 2%; width: 200px;}
+		tr {height: 40px;}
+		.blue {background-color: lightblue;}
+		.menu {background-color: menu;}
+		</style>
+	</head>
+	<body>
+		<form method="post" action="AdminCreateAccout">
+			<table border="2" align="center" class=menu>
+				<tr>
+					<td colspan="2" align="center" class="blue"><h3>Create Bank Account</h3></td>
+				</tr>
+				<tr>  
+					<td width="120">&nbsp;&nbsp;Name</td>
+					<td width="260"><input type="text" name="name"></td> 
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Password</td>
+					<td><input type="password" name="password"></td> 
+				</tr>	
+				<tr>
+					<td>&nbsp;&nbsp;Mobile Number</td>
+					<td><input type="number" name="mobile"></td> 
+				</tr>	
+				<tr>
+					<td>&nbsp;&nbsp;Email Address</td>
+					<td><input type="email" name="email"></td> 
+				</tr>	
+				<tr>
+					<td colspan="2" align="center">
+					<input type="submit" value="Create">
+					<input type="reset" value="Reset">
+					</td>
+				</tr>	
+				<tr>
+					<td colspan="2">
+					&nbsp;&nbsp;Already Have Account ? &nbsp;
+					<a href="login.html">Login Here</a>
+					</td>
+				</tr>	
+			</table>
+		</form>
+	</body>
+</html>
